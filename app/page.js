@@ -18,7 +18,7 @@ export default function Home() {
         </section>
       </main>
       <footer className="gifts">
-        <img src="/pink_gift.svg"></img>
+        <img src="/wow/pink_gift.svg"></img>
         <img src="/red_gift.svg"></img>
         <img src="/yellow_gift.svg"></img>
       </footer>
