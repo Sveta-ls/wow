@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <body className="body">
+      <main className="body">
         <section className="main_sec">
           <span className="h_text_home">Привет, друг!</span>
           <p className="p_text_home">
@@ -16,7 +16,7 @@ export default function Home() {
             <button className="button_main">посмотреть статистику!</button>
           </Link>
         </section>
-      </body>
+      </main>
       <footer className="gifts">
         <img src="/pink_gift.svg"></img>
         <img src="/red_gift.svg"></img>
