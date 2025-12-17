@@ -1,12 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export", // Важно: экспортировать статический сайт
+  output: "export",
   images: {
-    unoptimized: true, // Для GitHub Pages
+    unoptimized: true,
   },
-  basePath: "/wow", // Для GitHub Pages
-  assetPrefix: "/wow",
-  trailingSlash: true, // Добавьте это!
+  basePath: "/wow",
+  assetPrefix: "/wow/",
+  trailingSlash: true,
 };
 
 export default nextConfig;
