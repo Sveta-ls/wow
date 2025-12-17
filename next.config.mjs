@@ -4,8 +4,9 @@ const nextConfig = {
   images: {
     unoptimized: true, // Для GitHub Pages
   },
-  basePath: process.env.NODE_ENV === "production" ? "/wow" : "",
-  assetPrefix: process.env.NODE_ENV === "production" ? "/wow/" : "",
+  basePath: "/wow", // Для GitHub Pages
+  assetPrefix: "/wow",
+  trailingSlash: true, // Добавьте это!
 };
 
 export default nextConfig;
